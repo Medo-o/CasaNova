@@ -1,0 +1,26 @@
+project/
+│
+├── public/
+│   ├── css/
+│   │   └── styles.css  # تصميم الموقع
+│   ├── images/  # صور الموقع
+│   └── js/
+│       └── script.js  # وظائف الموقع
+│
+├── views/
+│   ├── index.ejs       # الصفحة الرئيسية
+│   ├── register.ejs    # صفحة إنشاء حساب
+│   ├── login.ejs       # صفحة تسجيل الدخول
+│   ├── news.ejs        # صفحة أخبار البوت
+│   ├── support.ejs     # صفحة سيرفر الدعم
+│   └── developer.ejs   # صفحة المبرمج
+│
+├── routes/
+│   ├── auth.js         # مسارات تسجيل الدخول وإنشاء الحساب
+│   ├── pages.js        # مسارات الصفحات الأخرى
+│
+├── models/
+│   └── User.js         # نموذج المستخدم
+│
+├── server.js           # ملف الخادم الأساسي
+└── package.json
